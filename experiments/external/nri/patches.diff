@@ -1,0 +1,122 @@
+--- a/train.py
++++ b/train.py
+@@ -103,8 +103,12 @@
+     print("WARNING: No save_folder provided!" +
+           "Testing (within this script) will throw an error.")
+ 
+-train_loader, valid_loader, test_loader, loc_max, loc_min, vel_max, vel_min = load_data(
+-    args.batch_size, args.suffix)
++if 'kuramoto' in args.suffix or '_tab2_' in args.suffix:   # patch: the generic (Kuramoto) loader of utils.py for our data
++    train_loader, valid_loader, test_loader = load_kuramoto_data(args.batch_size, args.suffix)
++    loc_max = loc_min = vel_max = vel_min = None
++else:
++    train_loader, valid_loader, test_loader, loc_max, loc_min, vel_max, vel_min = load_data(
++        args.batch_size, args.suffix)
+ 
+ # Generate off-diagonal interaction graph
+ off_diag = np.ones([args.num_atoms, args.num_atoms]) - np.eye(args.num_atoms)
+@@ -229,9 +233,9 @@
+         loss.backward()
+         optimizer.step()
+ 
+-        mse_train.append(F.mse_loss(output, target).data[0])
+-        nll_train.append(loss_nll.data[0])
+-        kl_train.append(loss_kl.data[0])
++        mse_train.append(F.mse_loss(output, target).item())
++        nll_train.append(loss_nll.item())
++        kl_train.append(loss_kl.item())
+ 
+     nll_val = []
+     acc_val = []
+@@ -240,6 +244,7 @@
+ 
+     encoder.eval()
+     decoder.eval()
++    torch.set_grad_enabled(False)   # patch: what Variable(volatile=True) did in PyTorch 0.2 (ignored by current versions)
+     for batch_idx, (data, relations) in enumerate(valid_loader):
+         if args.cuda:
+             data, relations = data.cuda(), relations.cuda()
+@@ -260,9 +265,10 @@
+         acc = edge_accuracy(logits, relations)
+         acc_val.append(acc)
+ 
+-        mse_val.append(F.mse_loss(output, target).data[0])
+-        nll_val.append(loss_nll.data[0])
+-        kl_val.append(loss_kl.data[0])
++        mse_val.append(F.mse_loss(output, target).item())
++        nll_val.append(loss_nll.item())
++        kl_val.append(loss_kl.item())
++    torch.set_grad_enabled(True)   # patch
+ 
+     print('Epoch: {:04d}'.format(epoch),
+           'nll_train: {:.10f}'.format(np.mean(nll_train)),
+@@ -292,7 +298,9 @@
+     return np.mean(nll_val)
+ 
+ 
++@torch.no_grad()   # patch: what Variable(volatile=True) did in PyTorch 0.2
+ def test():
++    probs_out, rels_out = [], []   # patch: edge probabilities and true relations of the test set
+     acc_test = []
+     nll_test = []
+     kl_test = []
+@@ -310,9 +318,12 @@
+         data, relations = Variable(data, volatile=True), Variable(
+             relations, volatile=True)
+ 
+-        assert (data.size(2) - args.timesteps) >= args.timesteps
+-
+         data_encoder = data[:, :, :args.timesteps, :].contiguous()
++        if (data.size(2) - args.timesteps) < args.timesteps:   # patch: edges only (fixed-graph data of 50 states)
++            logits = encoder(data_encoder, rel_rec, rel_send)
++            prob = my_softmax(logits, -1)
++            acc_test.append(edge_accuracy(logits, relations)); probs_out.append(prob.data.cpu().numpy())
++            rels_out.append(relations.data.cpu().numpy()); continue
+         data_decoder = data[:, :, -args.timesteps:, :].contiguous()
+ 
+         logits = encoder(data_encoder, rel_rec, rel_send)
+@@ -328,10 +339,11 @@
+ 
+         acc = edge_accuracy(logits, relations)
+         acc_test.append(acc)
++        probs_out.append(prob.data.cpu().numpy()); rels_out.append(relations.data.cpu().numpy())   # patch
+ 
+-        mse_test.append(F.mse_loss(output, target).data[0])
+-        nll_test.append(loss_nll.data[0])
+-        kl_test.append(loss_kl.data[0])
++        mse_test.append(F.mse_loss(output, target).item())
++        nll_test.append(loss_nll.item())
++        kl_test.append(loss_kl.item())
+ 
+         # For plotting purposes
+         if args.decoder == 'rnn':
+@@ -355,6 +367,12 @@
+         tot_mse += mse.data.cpu().numpy()
+         counter += 1
+ 
++    if args.save_folder:   # patch
++        np.save(os.path.join(save_folder, 'test_prob.npy'), np.concatenate(probs_out))
++        np.save(os.path.join(save_folder, 'test_rel.npy'), np.concatenate(rels_out))
++        print('acc_test: {:.10f}'.format(np.mean(acc_test)), file=log); log.flush()
++    if counter == 0:
++        print('acc_test: {:.10f}'.format(np.mean(acc_test))); return
+     mean_mse = tot_mse / counter
+     mse_str = '['
+     for mse_step in mean_mse[:-1]:
+--- a/utils.py
++++ b/utils.py
+@@ -8,7 +8,7 @@
+ 
+ def my_softmax(input, axis=1):
+     trans_input = input.transpose(axis, 0).contiguous()
+-    soft_max_1d = F.softmax(trans_input)
++    soft_max_1d = F.softmax(trans_input, dim=0)   # patch: the implicit dim of PyTorch 0.2 on the transposed axis
+     return soft_max_1d.transpose(axis, 0)
+ 
+ 
+@@ -474,4 +474,4 @@
+     _, preds = preds.max(-1)
+     correct = preds.float().data.eq(
+         target.float().data.view_as(preds)).cpu().sum()
+-    return np.float(correct) / (target.size(0) * target.size(1))
++    return float(correct) / (target.size(0) * target.size(1))   # patch: np.float was removed from numpy
