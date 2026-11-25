@@ -1,0 +1,46 @@
+diff -ruN a/neural_gnn/models/graph_trainer.py b/neural_gnn/models/graph_trainer.py
+--- a/neural_gnn/models/graph_trainer.py
++++ b/neural_gnn/models/graph_trainer.py
+@@ -195,7 +195,10 @@
+         #   (v[t+1] - v[t]) / dt = f(v[t]) + xi_t/dt
+         _v = x[:, :, 3]
+         y = np.zeros_like(_v)
+-        y[:-1] = (_v[1:] - _v[:-1]) / delta_t
++        _d = _v[1:] - _v[:-1]
++        if os.environ.get('HETNDL_PHASE_STATE') == '1':   # HetNDL patch P3: phase states, wrapped differences
++            _d = (_d + np.pi) % (2 * np.pi) - np.pi
++        y[:-1] = _d / delta_t
+         y[-1] = y[-2]                                # last frame has no successor;
+         y = y[..., None]                             # (T, N, 1), matches y_list
+         x_list.append(x)
+@@ -396,9 +399,9 @@
+         logger.info(f'batch_size: {batch_size}')
+ 
+         if batch_ratio < 1:
+-            Niter = int(n_frames * data_augmentation_loop // batch_size / batch_ratio * 0.2)
++            Niter = int(n_frames * n_runs * data_augmentation_loop // batch_size / batch_ratio * 0.2)   # HetNDL patch P2: frames of all runs
+         else:
+-            Niter = int(n_frames * data_augmentation_loop // batch_size * 0.2 )
++            Niter = int(n_frames * n_runs * data_augmentation_loop // batch_size * 0.2 )   # HetNDL patch P2: frames of all runs
+ 
+         plot_frequency = int(Niter // 20)
+         if epoch ==0:
+@@ -437,6 +440,7 @@
+ 
+             for batch in range(batch_size):
+ 
++                run = np.random.randint(n_runs)   # HetNDL patch P2: sample a training trajectory (upstream: always run 0)
+                 k = np.random.randint(n_frames - 4 - time_step)
+ 
+                 if recurrent_training or neural_ODE_training:
+@@ -853,8 +857,8 @@
+                     y_func_list = func_list * 0
+ 
+                     fig.add_subplot(2, 5, 9)
+-                    for n in np.unique(new_labels):
+-                        pos = np.argwhere(new_labels == n)
++                    for n in np.unique(labels):   # HetNDL patch P1: truth-free clusters (paper App. A.1, Step 4); upstream maps clusters to true types
++                        pos = np.argwhere(labels == n)
+                         pos = pos.squeeze()
+                         if pos.size > 0:
+                             target_func = torch.median(func_list[pos, :], dim=0).values.squeeze()

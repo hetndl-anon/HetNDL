@@ -1,0 +1,17 @@
+__pycache__/
+*.pyc
+.pytest_cache/
+experiments/data/
+experiments/real/
+experiments/runs/
+experiments/distill_sel/
+experiments/distill_glv_1106/
+experiments/distill_operators/
+experiments/figures/data/
+experiments/figures/out/
+experiments/external/mtgnn/src/
+experiments/external/cosine/src/
+experiments/external/nri/src/
+experiments/external/nri/patched/
+results/
+experiments/reproduce/run_jobs.log

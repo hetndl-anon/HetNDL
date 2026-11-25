@@ -1,0 +1,797 @@
+{
+ "a1v2_N30_seed1/add_z_signed_diff_lz0_seed1": {
+  "ref": "experiments/runs/default_wu/a1v2_N30_seed1/add_z_signed_diff_lz0_seed1",
+  "nonneg": "experiments/runs/a1_lz0/a1v2_N30_seed1/add_z_diff_lz0_seed1",
+  "nowu": "experiments/runs/signed_default/a1v2_N30_seed1/add_z_signed_diff_lz0_seed1"
+ },
+ "a1v2_N30_seed2/add_z_signed_diff_lz0_seed2": {
+  "ref": "experiments/runs/default_wu/a1v2_N30_seed2/add_z_signed_diff_lz0_seed2",
+  "nonneg": "experiments/runs/multiseed/a1v2_N30_seed2/add_z_diff_lz0_seed2",
+  "nowu": "experiments/runs/signed_default/a1v2_N30_seed2/add_z_signed_diff_lz0_seed2"
+ },
+ "a1v2_N30_seed3/add_z_signed_diff_lz0_seed3": {
+  "ref": "experiments/runs/default_wu/a1v2_N30_seed3/add_z_signed_diff_lz0_seed3",
+  "nonneg": "experiments/runs/multiseed/a1v2_N30_seed3/add_z_diff_lz0_seed3",
+  "nowu": "experiments/runs/signed_default/a1v2_N30_seed3/add_z_signed_diff_lz0_seed3"
+ },
+ "a2_N30_seed1/add_z_signed_diff_lz0_seed1": {
+  "ref": "experiments/runs/default_wu/a2_N30_seed1/add_z_signed_diff_lz0_seed1",
+  "nonneg": "experiments/runs/a2/a2_N30_seed1/add_z_diff_lz0_seed1",
+  "nowu": "experiments/runs/signed_default/a2_N30_seed1/add_z_signed_diff_lz0_seed1"
+ },
+ "a2_N30_seed2/add_z_signed_diff_lz0_seed2": {
+  "ref": "experiments/runs/default_wu/a2_N30_seed2/add_z_signed_diff_lz0_seed2",
+  "nonneg": "experiments/runs/a2/a2_N30_seed2/add_z_diff_lz0_seed2",
+  "nowu": "experiments/runs/signed_default/a2_N30_seed2/add_z_signed_diff_lz0_seed2"
+ },
+ "a2_N30_seed3/add_z_signed_diff_lz0_seed3": {
+  "ref": "experiments/runs/default_wu/a2_N30_seed3/add_z_signed_diff_lz0_seed3",
+  "nonneg": "experiments/runs/a2/a2_N30_seed3/add_z_diff_lz0_seed3",
+  "nowu": "experiments/runs/signed_default/a2_N30_seed3/add_z_signed_diff_lz0_seed3"
+ },
+ "a2_N60_seed1/add_z_signed_diff_lz0_n10_seed1": {
+  "ref": "experiments/runs/default_wu/a2_N60_seed1/add_z_signed_diff_lz0_n10_seed1",
+  "nonneg": "experiments/runs/robust/a2_N60_seed1/add_z_diff_lz0_n10_seed1",
+  "nowu": "experiments/runs/sel/nowu/a2_N60_seed1/add_z_signed_diff_lz0_n10_seed1"
+ },
+ "a2_N60_seed1/add_z_signed_diff_lz0_n20_seed1": {
+  "ref": "experiments/runs/default_wu/a2_N60_seed1/add_z_signed_diff_lz0_n20_seed1",
+  "nonneg": "experiments/runs/robust/a2_N60_seed1/add_z_diff_lz0_n20_seed1",
+  "nowu": "experiments/runs/sel/nowu/a2_N60_seed1/add_z_signed_diff_lz0_n20_seed1"
+ },
+ "a2_N60_seed1/add_z_signed_diff_lz0_n5_seed1": {
+  "ref": "experiments/runs/default_wu/a2_N60_seed1/add_z_signed_diff_lz0_n5_seed1",
+  "nonneg": "experiments/runs/robust/a2_N60_seed1/add_z_diff_lz0_n5_seed1",
+  "nowu": "experiments/runs/sel/nowu/a2_N60_seed1/add_z_signed_diff_lz0_n5_seed1"
+ },
+ "a2_N60_seed1/add_z_signed_diff_lz0_seed1": {
+  "ref": "experiments/runs/default_wu/a2_N60_seed1/add_z_signed_diff_lz0_seed1",
+  "nonneg": "experiments/runs/a2/a2_N60_seed1/add_z_diff_lz0_seed1",
+  "nowu": "experiments/runs/signed_default/a2_N60_seed1/add_z_signed_diff_lz0_seed1"
+ },
+ "a2_N60_seed1/add_z_signed_diff_lz0_snr10_seed1": {
+  "ref": "experiments/runs/default_wu/a2_N60_seed1/add_z_signed_diff_lz0_snr10_seed1",
+  "nonneg": "experiments/runs/robust/a2_N60_seed1/add_z_diff_lz0_snr10_seed1",
+  "nowu": "experiments/runs/sel/nowu/a2_N60_seed1/add_z_signed_diff_lz0_snr10_seed1"
+ },
+ "a2_N60_seed1/add_z_signed_diff_lz0_snr20_seed1": {
+  "ref": "experiments/runs/default_wu/a2_N60_seed1/add_z_signed_diff_lz0_snr20_seed1",
+  "nonneg": "experiments/runs/robust/a2_N60_seed1/add_z_diff_lz0_snr20_seed1",
+  "nowu": "experiments/runs/sel/nowu/a2_N60_seed1/add_z_signed_diff_lz0_snr20_seed1"
+ },
+ "a2_N60_seed1/add_z_signed_diff_lz0_snr30_seed1": {
+  "ref": "experiments/runs/default_wu/a2_N60_seed1/add_z_signed_diff_lz0_snr30_seed1",
+  "nonneg": "experiments/runs/robust/a2_N60_seed1/add_z_diff_lz0_snr30_seed1",
+  "nowu": "experiments/runs/sel/nowu/a2_N60_seed1/add_z_signed_diff_lz0_snr30_seed1"
+ },
+ "a2_N60_seed2/add_z_signed_diff_lz0_n10_seed2": {
+  "ref": "experiments/runs/default_wu/a2_N60_seed2/add_z_signed_diff_lz0_n10_seed2",
+  "nonneg": "experiments/runs/robust/a2_N60_seed2/add_z_diff_lz0_n10_seed2",
+  "nowu": "experiments/runs/sel/nowu/a2_N60_seed2/add_z_signed_diff_lz0_n10_seed2"
+ },
+ "a2_N60_seed2/add_z_signed_diff_lz0_n20_seed2": {
+  "ref": "experiments/runs/default_wu/a2_N60_seed2/add_z_signed_diff_lz0_n20_seed2",
+  "nonneg": "experiments/runs/robust/a2_N60_seed2/add_z_diff_lz0_n20_seed2",
+  "nowu": "experiments/runs/sel/nowu/a2_N60_seed2/add_z_signed_diff_lz0_n20_seed2"
+ },
+ "a2_N60_seed2/add_z_signed_diff_lz0_n5_seed2": {
+  "ref": "experiments/runs/default_wu/a2_N60_seed2/add_z_signed_diff_lz0_n5_seed2",
+  "nonneg": "experiments/runs/robust/a2_N60_seed2/add_z_diff_lz0_n5_seed2",
+  "nowu": "experiments/runs/sel/nowu/a2_N60_seed2/add_z_signed_diff_lz0_n5_seed2"
+ },
+ "a2_N60_seed2/add_z_signed_diff_lz0_seed2": {
+  "ref": "experiments/runs/default_wu/a2_N60_seed2/add_z_signed_diff_lz0_seed2",
+  "nonneg": "experiments/runs/a2/a2_N60_seed2/add_z_diff_lz0_seed2",
+  "nowu": "experiments/runs/signed_default/a2_N60_seed2/add_z_signed_diff_lz0_seed2"
+ },
+ "a2_N60_seed2/add_z_signed_diff_lz0_snr10_seed2": {
+  "ref": "experiments/runs/default_wu/a2_N60_seed2/add_z_signed_diff_lz0_snr10_seed2",
+  "nonneg": "experiments/runs/robust/a2_N60_seed2/add_z_diff_lz0_snr10_seed2",
+  "nowu": "experiments/runs/sel/nowu/a2_N60_seed2/add_z_signed_diff_lz0_snr10_seed2"
+ },
+ "a2_N60_seed2/add_z_signed_diff_lz0_snr20_seed2": {
+  "ref": "experiments/runs/default_wu/a2_N60_seed2/add_z_signed_diff_lz0_snr20_seed2",
+  "nonneg": "experiments/runs/robust/a2_N60_seed2/add_z_diff_lz0_snr20_seed2",
+  "nowu": "experiments/runs/sel/nowu/a2_N60_seed2/add_z_signed_diff_lz0_snr20_seed2"
+ },
+ "a2_N60_seed2/add_z_signed_diff_lz0_snr30_seed2": {
+  "ref": "experiments/runs/default_wu/a2_N60_seed2/add_z_signed_diff_lz0_snr30_seed2",
+  "nonneg": "experiments/runs/robust/a2_N60_seed2/add_z_diff_lz0_snr30_seed2",
+  "nowu": "experiments/runs/sel/nowu/a2_N60_seed2/add_z_signed_diff_lz0_snr30_seed2"
+ },
+ "a2_N60_seed3/add_z_signed_diff_lz0_n10_seed3": {
+  "ref": "experiments/runs/default_wu/a2_N60_seed3/add_z_signed_diff_lz0_n10_seed3",
+  "nonneg": "experiments/runs/robust/a2_N60_seed3/add_z_diff_lz0_n10_seed3",
+  "nowu": "experiments/runs/sel/nowu/a2_N60_seed3/add_z_signed_diff_lz0_n10_seed3"
+ },
+ "a2_N60_seed3/add_z_signed_diff_lz0_n20_seed3": {
+  "ref": "experiments/runs/default_wu/a2_N60_seed3/add_z_signed_diff_lz0_n20_seed3",
+  "nonneg": "experiments/runs/robust/a2_N60_seed3/add_z_diff_lz0_n20_seed3",
+  "nowu": "experiments/runs/sel/nowu/a2_N60_seed3/add_z_signed_diff_lz0_n20_seed3"
+ },
+ "a2_N60_seed3/add_z_signed_diff_lz0_n5_seed3": {
+  "ref": "experiments/runs/default_wu/a2_N60_seed3/add_z_signed_diff_lz0_n5_seed3",
+  "nonneg": "experiments/runs/robust/a2_N60_seed3/add_z_diff_lz0_n5_seed3",
+  "nowu": "experiments/runs/sel/nowu/a2_N60_seed3/add_z_signed_diff_lz0_n5_seed3"
+ },
+ "a2_N60_seed3/add_z_signed_diff_lz0_seed3": {
+  "ref": "experiments/runs/default_wu/a2_N60_seed3/add_z_signed_diff_lz0_seed3",
+  "nonneg": "experiments/runs/a2/a2_N60_seed3/add_z_diff_lz0_seed3",
+  "nowu": "experiments/runs/sel/nowu/a2_N60_seed3/add_z_signed_diff_lz0_seed3"
+ },
+ "a2_N60_seed3/add_z_signed_diff_lz0_snr10_seed3": {
+  "ref": "experiments/runs/default_wu/a2_N60_seed3/add_z_signed_diff_lz0_snr10_seed3",
+  "nonneg": "experiments/runs/robust/a2_N60_seed3/add_z_diff_lz0_snr10_seed3",
+  "nowu": "experiments/runs/sel_dz2/nowu/a2_N60_seed3/add_z_signed_diff_lz0_snr10_seed3"
+ },
+ "a2_N60_seed3/add_z_signed_diff_lz0_snr20_seed3": {
+  "ref": "experiments/runs/default_wu/a2_N60_seed3/add_z_signed_diff_lz0_snr20_seed3",
+  "nonneg": "experiments/runs/robust/a2_N60_seed3/add_z_diff_lz0_snr20_seed3",
+  "nowu": "experiments/runs/sel/nowu/a2_N60_seed3/add_z_signed_diff_lz0_snr20_seed3"
+ },
+ "a2_N60_seed3/add_z_signed_diff_lz0_snr30_seed3": {
+  "ref": "experiments/runs/default_wu/a2_N60_seed3/add_z_signed_diff_lz0_snr30_seed3",
+  "nonneg": "experiments/runs/robust/a2_N60_seed3/add_z_diff_lz0_snr30_seed3",
+  "nowu": "experiments/runs/sel/nowu/a2_N60_seed3/add_z_signed_diff_lz0_snr30_seed3"
+ },
+ "a3_N30_seed1/add_z_signed_diff_lz0_seed1": {
+  "ref": "experiments/runs/default_wu/a3_N30_seed1/add_z_signed_diff_lz0_seed1",
+  "nonneg": "experiments/runs/a3/a3_N30_seed1/add_z_diff_lz0_seed1",
+  "nowu": "experiments/runs/sel/nowu/a3_N30_seed1/add_z_signed_diff_lz0_seed1"
+ },
+ "a3_N30_seed2/add_z_signed_diff_lz0_seed2": {
+  "ref": "experiments/runs/default_wu/a3_N30_seed2/add_z_signed_diff_lz0_seed2",
+  "nonneg": "experiments/runs/a3/a3_N30_seed2/add_z_diff_lz0_seed2",
+  "nowu": "experiments/runs/sel/nowu/a3_N30_seed2/add_z_signed_diff_lz0_seed2"
+ },
+ "a3_N30_seed3/add_z_signed_diff_lz0_seed3": {
+  "ref": "experiments/runs/default_wu/a3_N30_seed3/add_z_signed_diff_lz0_seed3",
+  "nonneg": "experiments/runs/a3/a3_N30_seed3/add_z_diff_lz0_seed3",
+  "nowu": "experiments/runs/sel/nowu/a3_N30_seed3/add_z_signed_diff_lz0_seed3"
+ },
+ "ba/a1v2_BA30_m2_seed1/add_z_signed_diff_lz0_seed1": {
+  "ref": "experiments/runs/default_wu/ba/a1v2_BA30_m2_seed1/add_z_signed_diff_lz0_seed1",
+  "nonneg": "experiments/runs/sel/nonneg/ba/a1v2_BA30_m2_seed1/add_z_diff_lz0_seed1",
+  "nowu": "experiments/runs/sel/nowu/ba/a1v2_BA30_m2_seed1/add_z_signed_diff_lz0_seed1"
+ },
+ "ba/a1v2_BA30_m2_seed2/add_z_signed_diff_lz0_seed2": {
+  "ref": "experiments/runs/default_wu/ba/a1v2_BA30_m2_seed2/add_z_signed_diff_lz0_seed2",
+  "nonneg": "experiments/runs/sel/nonneg/ba/a1v2_BA30_m2_seed2/add_z_diff_lz0_seed2",
+  "nowu": "experiments/runs/sel/nowu/ba/a1v2_BA30_m2_seed2/add_z_signed_diff_lz0_seed2"
+ },
+ "ba/a1v2_BA30_m2_seed3/add_z_signed_diff_lz0_seed3": {
+  "ref": "experiments/runs/default_wu/ba/a1v2_BA30_m2_seed3/add_z_signed_diff_lz0_seed3",
+  "nonneg": "experiments/runs/sel/nonneg/ba/a1v2_BA30_m2_seed3/add_z_diff_lz0_seed3",
+  "nowu": "experiments/runs/sel/nowu/ba/a1v2_BA30_m2_seed3/add_z_signed_diff_lz0_seed3"
+ },
+ "ba/kura_BA100_m2_K2_s0.3_n0.5_g1/add_z_signed_diff_lz0_seed1": {
+  "ref": "experiments/runs/default_wu/ba/kura_BA100_m2_K2_s0.3_n0.5_g1/add_z_signed_diff_lz0_seed1",
+  "nonneg": "experiments/runs/sel_dz2/nonneg/ba/kura_BA100_m2_K2_s0.3_n0.5_g1/add_z_diff_lz0_seed1",
+  "nowu": "experiments/runs/sel_dz2/nowu/ba/kura_BA100_m2_K2_s0.3_n0.5_g1/add_z_signed_diff_lz0_seed1"
+ },
+ "ba/kura_BA100_m2_K2_s0.3_n0.5_g2/add_z_signed_diff_lz0_seed2": {
+  "ref": "experiments/runs/default_wu/ba/kura_BA100_m2_K2_s0.3_n0.5_g2/add_z_signed_diff_lz0_seed2",
+  "nonneg": "experiments/runs/sel_dz2/nonneg/ba/kura_BA100_m2_K2_s0.3_n0.5_g2/add_z_diff_lz0_seed2",
+  "nowu": "experiments/runs/sel_dz2/nowu/ba/kura_BA100_m2_K2_s0.3_n0.5_g2/add_z_signed_diff_lz0_seed2"
+ },
+ "ba/kura_BA100_m2_K2_s0.3_n0.5_g3/add_z_signed_diff_lz0_seed3": {
+  "ref": "experiments/runs/default_wu/ba/kura_BA100_m2_K2_s0.3_n0.5_g3/add_z_signed_diff_lz0_seed3",
+  "nonneg": "experiments/runs/sel_dz2/nonneg/ba/kura_BA100_m2_K2_s0.3_n0.5_g3/add_z_diff_lz0_seed3",
+  "nowu": "experiments/runs/sel_dz2/nowu/ba/kura_BA100_m2_K2_s0.3_n0.5_g3/add_z_signed_diff_lz0_seed3"
+ },
+ "glv_N30_n0.5_seed1/add_z_signed_diff_lz0_seed1": {
+  "ref": "experiments/runs/default_wu/glv_N30_n0.5_seed1/add_z_signed_diff_lz0_seed1",
+  "nonneg": "experiments/runs/sel_dz2/nonneg/glv_N30_n0.5_seed1/add_z_diff_lz0_seed1",
+  "nowu": "experiments/runs/glv_dz2/glv_N30_n0.5_seed1/add_z_signed_diff_lz0_seed1"
+ },
+ "glv_N30_n0.5_seed2/add_z_signed_diff_lz0_seed2": {
+  "ref": "experiments/runs/default_wu/glv_N30_n0.5_seed2/add_z_signed_diff_lz0_seed2",
+  "nonneg": "experiments/runs/sel_dz2/nonneg/glv_N30_n0.5_seed2/add_z_diff_lz0_seed2",
+  "nowu": "experiments/runs/glv_dz2/glv_N30_n0.5_seed2/add_z_signed_diff_lz0_seed2"
+ },
+ "glv_N30_n0.5_seed3/add_z_signed_diff_lz0_seed3": {
+  "ref": "experiments/runs/default_wu/glv_N30_n0.5_seed3/add_z_signed_diff_lz0_seed3",
+  "nonneg": "experiments/runs/sel_dz2/nonneg/glv_N30_n0.5_seed3/add_z_diff_lz0_seed3",
+  "nowu": "experiments/runs/glv_dz2/glv_N30_n0.5_seed3/add_z_signed_diff_lz0_seed3"
+ },
+ "grid118_seed1/add_z_signed_diff_lz0_seed1": {
+  "ref": "experiments/runs/default_wu/grid118_seed1/add_z_signed_diff_lz0_seed1",
+  "nonneg": "experiments/runs/grid/grid118_seed1/add_z_diff_lz0_seed1",
+  "nowu": "experiments/runs/signed_default/grid118_seed1/add_z_signed_diff_lz0_seed1"
+ },
+ "grid118_seed1/add_z_signed_diff_lz0_seed1_r2": {
+  "ref": "experiments/runs/default_wu/grid118_seed1/add_z_signed_diff_lz0_seed1_r2",
+  "nonneg": "experiments/runs/grid/grid118_seed1/add_z_diff_lz0_seed1_r2",
+  "nowu": "experiments/runs/signed_default/grid118_seed1/add_z_signed_diff_lz0_seed1_r2"
+ },
+ "grid118_seed1/add_z_signed_diff_lz0_seed1_r3": {
+  "ref": "experiments/runs/default_wu/grid118_seed1/add_z_signed_diff_lz0_seed1_r3",
+  "nonneg": "experiments/runs/grid/grid118_seed1/add_z_diff_lz0_seed1_r3",
+  "nowu": "experiments/runs/signed_default/grid118_seed1/add_z_signed_diff_lz0_seed1_r3"
+ },
+ "grid118_seed2/add_z_signed_diff_lz0_seed2": {
+  "ref": "experiments/runs/default_wu/grid118_seed2/add_z_signed_diff_lz0_seed2",
+  "nonneg": "experiments/runs/grid/grid118_seed2/add_z_diff_lz0_seed2",
+  "nowu": "experiments/runs/signed_default/grid118_seed2/add_z_signed_diff_lz0_seed2"
+ },
+ "grid118_seed2/add_z_signed_diff_lz0_seed2_r2": {
+  "ref": "experiments/runs/default_wu/grid118_seed2/add_z_signed_diff_lz0_seed2_r2",
+  "nonneg": "experiments/runs/grid/grid118_seed2/add_z_diff_lz0_seed2_r2",
+  "nowu": "experiments/runs/signed_default/grid118_seed2/add_z_signed_diff_lz0_seed2_r2"
+ },
+ "grid118_seed2/add_z_signed_diff_lz0_seed2_r3": {
+  "ref": "experiments/runs/default_wu/grid118_seed2/add_z_signed_diff_lz0_seed2_r3",
+  "nonneg": "experiments/runs/grid/grid118_seed2/add_z_diff_lz0_seed2_r3",
+  "nowu": "experiments/runs/signed_default/grid118_seed2/add_z_signed_diff_lz0_seed2_r3"
+ },
+ "grid118_seed3/add_z_signed_diff_lz0_seed3": {
+  "ref": "experiments/runs/default_wu/grid118_seed3/add_z_signed_diff_lz0_seed3",
+  "nonneg": "experiments/runs/grid/grid118_seed3/add_z_diff_lz0_seed3",
+  "nowu": "experiments/runs/sel/nowu/grid118_seed3/add_z_signed_diff_lz0_seed3"
+ },
+ "grid118_seed3/add_z_signed_diff_lz0_seed3_r2": {
+  "ref": "experiments/runs/default_wu/grid118_seed3/add_z_signed_diff_lz0_seed3_r2",
+  "nonneg": "experiments/runs/grid/grid118_seed3/add_z_diff_lz0_seed3_r2",
+  "nowu": "experiments/runs/sel/nowu/grid118_seed3/add_z_signed_diff_lz0_seed3_r2"
+ },
+ "grid118_seed3/add_z_signed_diff_lz0_seed3_r3": {
+  "ref": "experiments/runs/default_wu/grid118_seed3/add_z_signed_diff_lz0_seed3_r3",
+  "nonneg": "experiments/runs/grid/grid118_seed3/add_z_diff_lz0_seed3_r3",
+  "nowu": "experiments/runs/sel/nowu/grid118_seed3/add_z_signed_diff_lz0_seed3_r3"
+ },
+ "kura_ER100_K2_s0.3_n0.2/add_z_signed_diff_lz0_seed1": {
+  "ref": "experiments/runs/default_wu/kura_ER100_K2_s0.3_n0.2/add_z_signed_diff_lz0_seed1",
+  "nonneg": "experiments/runs/sel_dz2/nonneg/kura_ER100_K2_s0.3_n0.2/add_z_diff_lz0_seed1",
+  "nowu": "experiments/runs/sel_dz2/nowu/kura_ER100_K2_s0.3_n0.2/add_z_signed_diff_lz0_seed1"
+ },
+ "kura_ER100_K2_s0.3_n0.2_g2/add_z_signed_diff_lz0_seed2": {
+  "ref": "experiments/runs/default_wu/kura_ER100_K2_s0.3_n0.2_g2/add_z_signed_diff_lz0_seed2",
+  "nonneg": "experiments/runs/sel_dz2/nonneg/kura_ER100_K2_s0.3_n0.2_g2/add_z_diff_lz0_seed2",
+  "nowu": "experiments/runs/sel_dz2/nowu/kura_ER100_K2_s0.3_n0.2_g2/add_z_signed_diff_lz0_seed2"
+ },
+ "kura_ER100_K2_s0.3_n0.2_g3/add_z_signed_diff_lz0_seed3": {
+  "ref": "experiments/runs/default_wu/kura_ER100_K2_s0.3_n0.2_g3/add_z_signed_diff_lz0_seed3",
+  "nonneg": "experiments/runs/sel_dz2/nonneg/kura_ER100_K2_s0.3_n0.2_g3/add_z_diff_lz0_seed3",
+  "nowu": "experiments/runs/sel_dz2/nowu/kura_ER100_K2_s0.3_n0.2_g3/add_z_signed_diff_lz0_seed3"
+ },
+ "kura_ER100_K2_s0.3_n0.5/add_z_signed_diff_lz0_n10_seed1": {
+  "ref": "experiments/runs/default_wu/kura_ER100_K2_s0.3_n0.5/add_z_signed_diff_lz0_n10_seed1",
+  "nonneg": "experiments/runs/sel_dz2/nonneg/kura_ER100_K2_s0.3_n0.5/add_z_diff_lz0_n10_seed1",
+  "nowu": "experiments/runs/sel_dz2/nowu/kura_ER100_K2_s0.3_n0.5/add_z_signed_diff_lz0_n10_seed1"
+ },
+ "kura_ER100_K2_s0.3_n0.5/add_z_signed_diff_lz0_n3_seed1": {
+  "ref": "experiments/runs/default_wu/kura_ER100_K2_s0.3_n0.5/add_z_signed_diff_lz0_n3_seed1",
+  "nonneg": "experiments/runs/sel_dz2/nonneg/kura_ER100_K2_s0.3_n0.5/add_z_diff_lz0_n3_seed1",
+  "nowu": "experiments/runs/sel_dz2/nowu/kura_ER100_K2_s0.3_n0.5/add_z_signed_diff_lz0_n3_seed1"
+ },
+ "kura_ER100_K2_s0.3_n0.5/add_z_signed_diff_lz0_n5_seed1": {
+  "ref": "experiments/runs/default_wu/kura_ER100_K2_s0.3_n0.5/add_z_signed_diff_lz0_n5_seed1",
+  "nonneg": "experiments/runs/sel_dz2/nonneg/kura_ER100_K2_s0.3_n0.5/add_z_diff_lz0_n5_seed1",
+  "nowu": "experiments/runs/sel_dz2/nowu/kura_ER100_K2_s0.3_n0.5/add_z_signed_diff_lz0_n5_seed1"
+ },
+ "kura_ER100_K2_s0.3_n0.5/add_z_signed_diff_lz0_seed1": {
+  "ref": "experiments/runs/default_wu/kura_ER100_K2_s0.3_n0.5/add_z_signed_diff_lz0_seed1",
+  "nonneg": "experiments/runs/sel_dz2/nonneg/kura_ER100_K2_s0.3_n0.5/add_z_diff_lz0_seed1",
+  "nowu": "experiments/runs/sel_dz2/nowu/kura_ER100_K2_s0.3_n0.5/add_z_signed_diff_lz0_seed1"
+ },
+ "kura_ER100_K2_s0.3_n0.5/add_z_signed_diff_lz0_sg51_noise0.05_seed1": {
+  "ref": "experiments/runs/default_wu/kura_ER100_K2_s0.3_n0.5/add_z_signed_diff_lz0_sg51_noise0.05_seed1",
+  "nonneg": "experiments/runs/sel_dz2/nonneg/kura_ER100_K2_s0.3_n0.5/add_z_diff_lz0_sg51_noise0.05_seed1",
+  "nowu": "experiments/runs/sel_dz2/nowu/kura_ER100_K2_s0.3_n0.5/add_z_signed_diff_lz0_sg51_noise0.05_seed1"
+ },
+ "kura_ER100_K2_s0.3_n0.5/add_z_signed_diff_lz0_sg51_noise0.1_seed1": {
+  "ref": "experiments/runs/default_wu/kura_ER100_K2_s0.3_n0.5/add_z_signed_diff_lz0_sg51_noise0.1_seed1",
+  "nonneg": "experiments/runs/sel_dz2/nonneg/kura_ER100_K2_s0.3_n0.5/add_z_diff_lz0_sg51_noise0.1_seed1",
+  "nowu": "experiments/runs/sel_dz2/nowu/kura_ER100_K2_s0.3_n0.5/add_z_signed_diff_lz0_sg51_noise0.1_seed1"
+ },
+ "kura_ER100_K2_s0.3_n0.5/add_z_signed_diff_lz0_sg51_noise0.2_seed1": {
+  "ref": "experiments/runs/default_wu/kura_ER100_K2_s0.3_n0.5/add_z_signed_diff_lz0_sg51_noise0.2_seed1",
+  "nonneg": "experiments/runs/sel_dz2/nonneg/kura_ER100_K2_s0.3_n0.5/add_z_diff_lz0_sg51_noise0.2_seed1",
+  "nowu": "experiments/runs/sel_dz2/nowu/kura_ER100_K2_s0.3_n0.5/add_z_signed_diff_lz0_sg51_noise0.2_seed1"
+ },
+ "kura_ER100_K2_s0.3_n0.5_g2/add_z_signed_diff_lz0_n10_seed2": {
+  "ref": "experiments/runs/default_wu/kura_ER100_K2_s0.3_n0.5_g2/add_z_signed_diff_lz0_n10_seed2",
+  "nonneg": "experiments/runs/sel_dz2/nonneg/kura_ER100_K2_s0.3_n0.5_g2/add_z_diff_lz0_n10_seed2",
+  "nowu": "experiments/runs/sel_dz2/nowu/kura_ER100_K2_s0.3_n0.5_g2/add_z_signed_diff_lz0_n10_seed2"
+ },
+ "kura_ER100_K2_s0.3_n0.5_g2/add_z_signed_diff_lz0_n3_seed2": {
+  "ref": "experiments/runs/default_wu/kura_ER100_K2_s0.3_n0.5_g2/add_z_signed_diff_lz0_n3_seed2",
+  "nonneg": "experiments/runs/sel_dz2/nonneg/kura_ER100_K2_s0.3_n0.5_g2/add_z_diff_lz0_n3_seed2",
+  "nowu": "experiments/runs/sel_dz2/nowu/kura_ER100_K2_s0.3_n0.5_g2/add_z_signed_diff_lz0_n3_seed2"
+ },
+ "kura_ER100_K2_s0.3_n0.5_g2/add_z_signed_diff_lz0_n5_seed2": {
+  "ref": "experiments/runs/default_wu/kura_ER100_K2_s0.3_n0.5_g2/add_z_signed_diff_lz0_n5_seed2",
+  "nonneg": "experiments/runs/sel_dz2/nonneg/kura_ER100_K2_s0.3_n0.5_g2/add_z_diff_lz0_n5_seed2",
+  "nowu": "experiments/runs/sel_dz2/nowu/kura_ER100_K2_s0.3_n0.5_g2/add_z_signed_diff_lz0_n5_seed2"
+ },
+ "kura_ER100_K2_s0.3_n0.5_g2/add_z_signed_diff_lz0_seed2": {
+  "ref": "experiments/runs/default_wu/kura_ER100_K2_s0.3_n0.5_g2/add_z_signed_diff_lz0_seed2",
+  "nonneg": "experiments/runs/sel_dz2/nonneg/kura_ER100_K2_s0.3_n0.5_g2/add_z_diff_lz0_seed2",
+  "nowu": "experiments/runs/sel_dz2/nowu/kura_ER100_K2_s0.3_n0.5_g2/add_z_signed_diff_lz0_seed2"
+ },
+ "kura_ER100_K2_s0.3_n0.5_g2/add_z_signed_diff_lz0_sg51_noise0.05_seed2": {
+  "ref": "experiments/runs/default_wu/kura_ER100_K2_s0.3_n0.5_g2/add_z_signed_diff_lz0_sg51_noise0.05_seed2",
+  "nonneg": "experiments/runs/sel_dz2/nonneg/kura_ER100_K2_s0.3_n0.5_g2/add_z_diff_lz0_sg51_noise0.05_seed2",
+  "nowu": "experiments/runs/sel_dz2/nowu/kura_ER100_K2_s0.3_n0.5_g2/add_z_signed_diff_lz0_sg51_noise0.05_seed2"
+ },
+ "kura_ER100_K2_s0.3_n0.5_g2/add_z_signed_diff_lz0_sg51_noise0.1_seed2": {
+  "ref": "experiments/runs/default_wu/kura_ER100_K2_s0.3_n0.5_g2/add_z_signed_diff_lz0_sg51_noise0.1_seed2",
+  "nonneg": "experiments/runs/sel_dz2/nonneg/kura_ER100_K2_s0.3_n0.5_g2/add_z_diff_lz0_sg51_noise0.1_seed2",
+  "nowu": "experiments/runs/sel_dz2/nowu/kura_ER100_K2_s0.3_n0.5_g2/add_z_signed_diff_lz0_sg51_noise0.1_seed2"
+ },
+ "kura_ER100_K2_s0.3_n0.5_g2/add_z_signed_diff_lz0_sg51_noise0.2_seed2": {
+  "ref": "experiments/runs/default_wu/kura_ER100_K2_s0.3_n0.5_g2/add_z_signed_diff_lz0_sg51_noise0.2_seed2",
+  "nonneg": "experiments/runs/sel_dz2/nonneg/kura_ER100_K2_s0.3_n0.5_g2/add_z_diff_lz0_sg51_noise0.2_seed2",
+  "nowu": "experiments/runs/sel_dz2/nowu/kura_ER100_K2_s0.3_n0.5_g2/add_z_signed_diff_lz0_sg51_noise0.2_seed2"
+ },
+ "kura_ER100_K2_s0.3_n0.5_g3/add_z_signed_diff_lz0_n10_seed3": {
+  "ref": "experiments/runs/default_wu/kura_ER100_K2_s0.3_n0.5_g3/add_z_signed_diff_lz0_n10_seed3",
+  "nonneg": "experiments/runs/sel_dz2/nonneg/kura_ER100_K2_s0.3_n0.5_g3/add_z_diff_lz0_n10_seed3",
+  "nowu": "experiments/runs/sel_dz2/nowu/kura_ER100_K2_s0.3_n0.5_g3/add_z_signed_diff_lz0_n10_seed3"
+ },
+ "kura_ER100_K2_s0.3_n0.5_g3/add_z_signed_diff_lz0_n3_seed3": {
+  "ref": "experiments/runs/default_wu/kura_ER100_K2_s0.3_n0.5_g3/add_z_signed_diff_lz0_n3_seed3",
+  "nonneg": "experiments/runs/sel_dz2/nonneg/kura_ER100_K2_s0.3_n0.5_g3/add_z_diff_lz0_n3_seed3",
+  "nowu": "experiments/runs/sel_dz2/nowu/kura_ER100_K2_s0.3_n0.5_g3/add_z_signed_diff_lz0_n3_seed3"
+ },
+ "kura_ER100_K2_s0.3_n0.5_g3/add_z_signed_diff_lz0_n5_seed3": {
+  "ref": "experiments/runs/default_wu/kura_ER100_K2_s0.3_n0.5_g3/add_z_signed_diff_lz0_n5_seed3",
+  "nonneg": "experiments/runs/sel_dz2/nonneg/kura_ER100_K2_s0.3_n0.5_g3/add_z_diff_lz0_n5_seed3",
+  "nowu": "experiments/runs/sel_dz2/nowu/kura_ER100_K2_s0.3_n0.5_g3/add_z_signed_diff_lz0_n5_seed3"
+ },
+ "kura_ER100_K2_s0.3_n0.5_g3/add_z_signed_diff_lz0_seed3": {
+  "ref": "experiments/runs/default_wu/kura_ER100_K2_s0.3_n0.5_g3/add_z_signed_diff_lz0_seed3",
+  "nonneg": "experiments/runs/sel_dz2/nonneg/kura_ER100_K2_s0.3_n0.5_g3/add_z_diff_lz0_seed3",
+  "nowu": "experiments/runs/sel_dz2/nowu/kura_ER100_K2_s0.3_n0.5_g3/add_z_signed_diff_lz0_seed3"
+ },
+ "kura_ER100_K2_s0.3_n0.5_g3/add_z_signed_diff_lz0_sg51_noise0.05_seed3": {
+  "ref": "experiments/runs/default_wu/kura_ER100_K2_s0.3_n0.5_g3/add_z_signed_diff_lz0_sg51_noise0.05_seed3",
+  "nonneg": "experiments/runs/sel_dz2/nonneg/kura_ER100_K2_s0.3_n0.5_g3/add_z_diff_lz0_sg51_noise0.05_seed3",
+  "nowu": "experiments/runs/sel_dz2/nowu/kura_ER100_K2_s0.3_n0.5_g3/add_z_signed_diff_lz0_sg51_noise0.05_seed3"
+ },
+ "kura_ER100_K2_s0.3_n0.5_g3/add_z_signed_diff_lz0_sg51_noise0.1_seed3": {
+  "ref": "experiments/runs/default_wu/kura_ER100_K2_s0.3_n0.5_g3/add_z_signed_diff_lz0_sg51_noise0.1_seed3",
+  "nonneg": "experiments/runs/sel_dz2/nonneg/kura_ER100_K2_s0.3_n0.5_g3/add_z_diff_lz0_sg51_noise0.1_seed3",
+  "nowu": "experiments/runs/sel_dz2/nowu/kura_ER100_K2_s0.3_n0.5_g3/add_z_signed_diff_lz0_sg51_noise0.1_seed3"
+ },
+ "kura_ER100_K2_s0.3_n0.5_g3/add_z_signed_diff_lz0_sg51_noise0.2_seed3": {
+  "ref": "experiments/runs/default_wu/kura_ER100_K2_s0.3_n0.5_g3/add_z_signed_diff_lz0_sg51_noise0.2_seed3",
+  "nonneg": "experiments/runs/sel_dz2/nonneg/kura_ER100_K2_s0.3_n0.5_g3/add_z_diff_lz0_sg51_noise0.2_seed3",
+  "nowu": "experiments/runs/sel_dz2/nowu/kura_ER100_K2_s0.3_n0.5_g3/add_z_signed_diff_lz0_sg51_noise0.2_seed3"
+ },
+ "kura_ER100_K2_s0.3_n0/add_z_signed_diff_lz0_seed1": {
+  "ref": "experiments/runs/default_wu/kura_ER100_K2_s0.3_n0/add_z_signed_diff_lz0_seed1",
+  "nonneg": "experiments/runs/sel_dz2/nonneg/kura_ER100_K2_s0.3_n0/add_z_diff_lz0_seed1",
+  "nowu": "experiments/runs/sel_dz2/nowu/kura_ER100_K2_s0.3_n0/add_z_signed_diff_lz0_seed1"
+ },
+ "kura_ER100_K2_s0.3_n0_g2/add_z_signed_diff_lz0_seed2": {
+  "ref": "experiments/runs/default_wu/kura_ER100_K2_s0.3_n0_g2/add_z_signed_diff_lz0_seed2",
+  "nonneg": "experiments/runs/sel_dz2/nonneg/kura_ER100_K2_s0.3_n0_g2/add_z_diff_lz0_seed2",
+  "nowu": "experiments/runs/sel_dz2/nowu/kura_ER100_K2_s0.3_n0_g2/add_z_signed_diff_lz0_seed2"
+ },
+ "kura_ER100_K2_s0.3_n0_g3/add_z_signed_diff_lz0_seed3": {
+  "ref": "experiments/runs/default_wu/kura_ER100_K2_s0.3_n0_g3/add_z_signed_diff_lz0_seed3",
+  "nonneg": "experiments/runs/sel_dz2/nonneg/kura_ER100_K2_s0.3_n0_g3/add_z_diff_lz0_seed3",
+  "nowu": "experiments/runs/sel_dz2/nowu/kura_ER100_K2_s0.3_n0_g3/add_z_signed_diff_lz0_seed3"
+ },
+ "kura_ER100_K2_s2_n0/add_z_signed_diff_lz0_seed1": {
+  "ref": "experiments/runs/default_wu/kura_ER100_K2_s2_n0/add_z_signed_diff_lz0_seed1",
+  "nonneg": "experiments/runs/sel_dz2/nonneg/kura_ER100_K2_s2_n0/add_z_diff_lz0_seed1",
+  "nowu": "experiments/runs/sel_dz2/nowu/kura_ER100_K2_s2_n0/add_z_signed_diff_lz0_seed1"
+ },
+ "kura_ER100_K2_s2_n0_g2/add_z_signed_diff_lz0_seed2": {
+  "ref": "experiments/runs/default_wu/kura_ER100_K2_s2_n0_g2/add_z_signed_diff_lz0_seed2",
+  "nonneg": "experiments/runs/sel_dz2/nonneg/kura_ER100_K2_s2_n0_g2/add_z_diff_lz0_seed2",
+  "nowu": "experiments/runs/sel_dz2/nowu/kura_ER100_K2_s2_n0_g2/add_z_signed_diff_lz0_seed2"
+ },
+ "kura_ER100_K2_s2_n0_g3/add_z_signed_diff_lz0_seed3": {
+  "ref": "experiments/runs/default_wu/kura_ER100_K2_s2_n0_g3/add_z_signed_diff_lz0_seed3",
+  "nonneg": "experiments/runs/sel_dz2/nonneg/kura_ER100_K2_s2_n0_g3/add_z_diff_lz0_seed3",
+  "nowu": "experiments/runs/sel_dz2/nowu/kura_ER100_K2_s2_n0_g3/add_z_signed_diff_lz0_seed3"
+ },
+ "netsim_sim1/add_z_signed_diff_lz0_seed1": {
+  "ref": "experiments/runs/default_wu/netsim_sim1/add_z_signed_diff_lz0_seed1",
+  "nonneg": "experiments/runs/sel_dz2/nonneg/netsim_sim1/add_z_diff_lz0_seed1",
+  "nowu": "experiments/runs/sel_dz2/nowu/netsim_sim1/add_z_signed_diff_lz0_seed1"
+ },
+ "netsim_sim1/add_z_signed_diff_lz0_seed2": {
+  "ref": "experiments/runs/default_wu/netsim_sim1/add_z_signed_diff_lz0_seed2",
+  "nonneg": "experiments/runs/sel_dz2/nonneg/netsim_sim1/add_z_diff_lz0_seed2",
+  "nowu": "experiments/runs/sel_dz2/nowu/netsim_sim1/add_z_signed_diff_lz0_seed2"
+ },
+ "netsim_sim1/add_z_signed_diff_lz0_seed3": {
+  "ref": "experiments/runs/default_wu/netsim_sim1/add_z_signed_diff_lz0_seed3",
+  "nonneg": "experiments/runs/sel_dz2/nonneg/netsim_sim1/add_z_diff_lz0_seed3",
+  "nowu": "experiments/runs/sel_dz2/nowu/netsim_sim1/add_z_signed_diff_lz0_seed3"
+ },
+ "netsim_sim10/add_z_signed_diff_lz0_seed1": {
+  "ref": "experiments/runs/default_wu/netsim_sim10/add_z_signed_diff_lz0_seed1",
+  "nonneg": "experiments/runs/sel_dz2/nonneg/netsim_sim10/add_z_diff_lz0_seed1",
+  "nowu": "experiments/runs/sel_dz2/nowu/netsim_sim10/add_z_signed_diff_lz0_seed1"
+ },
+ "netsim_sim10/add_z_signed_diff_lz0_seed2": {
+  "ref": "experiments/runs/default_wu/netsim_sim10/add_z_signed_diff_lz0_seed2",
+  "nonneg": "experiments/runs/sel_dz2/nonneg/netsim_sim10/add_z_diff_lz0_seed2",
+  "nowu": "experiments/runs/sel_dz2/nowu/netsim_sim10/add_z_signed_diff_lz0_seed2"
+ },
+ "netsim_sim10/add_z_signed_diff_lz0_seed3": {
+  "ref": "experiments/runs/default_wu/netsim_sim10/add_z_signed_diff_lz0_seed3",
+  "nonneg": "experiments/runs/sel_dz2/nonneg/netsim_sim10/add_z_diff_lz0_seed3",
+  "nowu": "experiments/runs/sel_dz2/nowu/netsim_sim10/add_z_signed_diff_lz0_seed3"
+ },
+ "netsim_sim11/add_z_signed_diff_lz0_seed1": {
+  "ref": "experiments/runs/default_wu/netsim_sim11/add_z_signed_diff_lz0_seed1",
+  "nonneg": "experiments/runs/sel_dz2/nonneg/netsim_sim11/add_z_diff_lz0_seed1",
+  "nowu": "experiments/runs/sel_dz2/nowu/netsim_sim11/add_z_signed_diff_lz0_seed1"
+ },
+ "netsim_sim11/add_z_signed_diff_lz0_seed2": {
+  "ref": "experiments/runs/default_wu/netsim_sim11/add_z_signed_diff_lz0_seed2",
+  "nonneg": "experiments/runs/sel_dz2/nonneg/netsim_sim11/add_z_diff_lz0_seed2",
+  "nowu": "experiments/runs/sel_dz2/nowu/netsim_sim11/add_z_signed_diff_lz0_seed2"
+ },
+ "netsim_sim11/add_z_signed_diff_lz0_seed3": {
+  "ref": "experiments/runs/default_wu/netsim_sim11/add_z_signed_diff_lz0_seed3",
+  "nonneg": "experiments/runs/sel_dz2/nonneg/netsim_sim11/add_z_diff_lz0_seed3",
+  "nowu": "experiments/runs/sel_dz2/nowu/netsim_sim11/add_z_signed_diff_lz0_seed3"
+ },
+ "netsim_sim12/add_z_signed_diff_lz0_seed1": {
+  "ref": "experiments/runs/default_wu/netsim_sim12/add_z_signed_diff_lz0_seed1",
+  "nonneg": "experiments/runs/sel_dz2/nonneg/netsim_sim12/add_z_diff_lz0_seed1",
+  "nowu": "experiments/runs/sel_dz2/nowu/netsim_sim12/add_z_signed_diff_lz0_seed1"
+ },
+ "netsim_sim12/add_z_signed_diff_lz0_seed2": {
+  "ref": "experiments/runs/default_wu/netsim_sim12/add_z_signed_diff_lz0_seed2",
+  "nonneg": "experiments/runs/sel_dz2/nonneg/netsim_sim12/add_z_diff_lz0_seed2",
+  "nowu": "experiments/runs/sel_dz2/nowu/netsim_sim12/add_z_signed_diff_lz0_seed2"
+ },
+ "netsim_sim12/add_z_signed_diff_lz0_seed3": {
+  "ref": "experiments/runs/default_wu/netsim_sim12/add_z_signed_diff_lz0_seed3",
+  "nonneg": "experiments/runs/sel_dz2/nonneg/netsim_sim12/add_z_diff_lz0_seed3",
+  "nowu": "experiments/runs/sel_dz2/nowu/netsim_sim12/add_z_signed_diff_lz0_seed3"
+ },
+ "netsim_sim14/add_z_signed_diff_lz0_seed1": {
+  "ref": "experiments/runs/default_wu/netsim_sim14/add_z_signed_diff_lz0_seed1",
+  "nonneg": "experiments/runs/sel_dz2/nonneg/netsim_sim14/add_z_diff_lz0_seed1",
+  "nowu": "experiments/runs/sel_dz2/nowu/netsim_sim14/add_z_signed_diff_lz0_seed1"
+ },
+ "netsim_sim14/add_z_signed_diff_lz0_seed2": {
+  "ref": "experiments/runs/default_wu/netsim_sim14/add_z_signed_diff_lz0_seed2",
+  "nonneg": "experiments/runs/sel_dz2/nonneg/netsim_sim14/add_z_diff_lz0_seed2",
+  "nowu": "experiments/runs/sel_dz2/nowu/netsim_sim14/add_z_signed_diff_lz0_seed2"
+ },
+ "netsim_sim14/add_z_signed_diff_lz0_seed3": {
+  "ref": "experiments/runs/default_wu/netsim_sim14/add_z_signed_diff_lz0_seed3",
+  "nonneg": "experiments/runs/sel_dz2/nonneg/netsim_sim14/add_z_diff_lz0_seed3",
+  "nowu": "experiments/runs/sel_dz2/nowu/netsim_sim14/add_z_signed_diff_lz0_seed3"
+ },
+ "netsim_sim15/add_z_signed_diff_lz0_seed1": {
+  "ref": "experiments/runs/default_wu/netsim_sim15/add_z_signed_diff_lz0_seed1",
+  "nonneg": "experiments/runs/sel_dz2/nonneg/netsim_sim15/add_z_diff_lz0_seed1",
+  "nowu": "experiments/runs/sel_dz2/nowu/netsim_sim15/add_z_signed_diff_lz0_seed1"
+ },
+ "netsim_sim15/add_z_signed_diff_lz0_seed2": {
+  "ref": "experiments/runs/default_wu/netsim_sim15/add_z_signed_diff_lz0_seed2",
+  "nonneg": "experiments/runs/sel_dz2/nonneg/netsim_sim15/add_z_diff_lz0_seed2",
+  "nowu": "experiments/runs/sel_dz2/nowu/netsim_sim15/add_z_signed_diff_lz0_seed2"
+ },
+ "netsim_sim15/add_z_signed_diff_lz0_seed3": {
+  "ref": "experiments/runs/default_wu/netsim_sim15/add_z_signed_diff_lz0_seed3",
+  "nonneg": "experiments/runs/sel_dz2/nonneg/netsim_sim15/add_z_diff_lz0_seed3",
+  "nowu": "experiments/runs/sel_dz2/nowu/netsim_sim15/add_z_signed_diff_lz0_seed3"
+ },
+ "netsim_sim16/add_z_signed_diff_lz0_seed1": {
+  "ref": "experiments/runs/default_wu/netsim_sim16/add_z_signed_diff_lz0_seed1",
+  "nonneg": "experiments/runs/sel_dz2/nonneg/netsim_sim16/add_z_diff_lz0_seed1",
+  "nowu": "experiments/runs/sel_dz2/nowu/netsim_sim16/add_z_signed_diff_lz0_seed1"
+ },
+ "netsim_sim16/add_z_signed_diff_lz0_seed2": {
+  "ref": "experiments/runs/default_wu/netsim_sim16/add_z_signed_diff_lz0_seed2",
+  "nonneg": "experiments/runs/sel_dz2/nonneg/netsim_sim16/add_z_diff_lz0_seed2",
+  "nowu": "experiments/runs/sel_dz2/nowu/netsim_sim16/add_z_signed_diff_lz0_seed2"
+ },
+ "netsim_sim16/add_z_signed_diff_lz0_seed3": {
+  "ref": "experiments/runs/default_wu/netsim_sim16/add_z_signed_diff_lz0_seed3",
+  "nonneg": "experiments/runs/sel_dz2/nonneg/netsim_sim16/add_z_diff_lz0_seed3",
+  "nowu": "experiments/runs/sel_dz2/nowu/netsim_sim16/add_z_signed_diff_lz0_seed3"
+ },
+ "netsim_sim17/add_z_signed_diff_lz0_seed1": {
+  "ref": "experiments/runs/default_wu/netsim_sim17/add_z_signed_diff_lz0_seed1",
+  "nonneg": "experiments/runs/sel_dz2/nonneg/netsim_sim17/add_z_diff_lz0_seed1",
+  "nowu": "experiments/runs/sel_dz2/nowu/netsim_sim17/add_z_signed_diff_lz0_seed1"
+ },
+ "netsim_sim17/add_z_signed_diff_lz0_seed2": {
+  "ref": "experiments/runs/default_wu/netsim_sim17/add_z_signed_diff_lz0_seed2",
+  "nonneg": "experiments/runs/sel_dz2/nonneg/netsim_sim17/add_z_diff_lz0_seed2",
+  "nowu": "experiments/runs/sel_dz2/nowu/netsim_sim17/add_z_signed_diff_lz0_seed2"
+ },
+ "netsim_sim17/add_z_signed_diff_lz0_seed3": {
+  "ref": "experiments/runs/default_wu/netsim_sim17/add_z_signed_diff_lz0_seed3",
+  "nonneg": "experiments/runs/sel_dz2/nonneg/netsim_sim17/add_z_diff_lz0_seed3",
+  "nowu": "experiments/runs/sel_dz2/nowu/netsim_sim17/add_z_signed_diff_lz0_seed3"
+ },
+ "netsim_sim18/add_z_signed_diff_lz0_seed1": {
+  "ref": "experiments/runs/default_wu/netsim_sim18/add_z_signed_diff_lz0_seed1",
+  "nonneg": "experiments/runs/sel_dz2/nonneg/netsim_sim18/add_z_diff_lz0_seed1",
+  "nowu": "experiments/runs/sel_dz2/nowu/netsim_sim18/add_z_signed_diff_lz0_seed1"
+ },
+ "netsim_sim18/add_z_signed_diff_lz0_seed2": {
+  "ref": "experiments/runs/default_wu/netsim_sim18/add_z_signed_diff_lz0_seed2",
+  "nonneg": "experiments/runs/sel_dz2/nonneg/netsim_sim18/add_z_diff_lz0_seed2",
+  "nowu": "experiments/runs/sel_dz2/nowu/netsim_sim18/add_z_signed_diff_lz0_seed2"
+ },
+ "netsim_sim18/add_z_signed_diff_lz0_seed3": {
+  "ref": "experiments/runs/default_wu/netsim_sim18/add_z_signed_diff_lz0_seed3",
+  "nonneg": "experiments/runs/sel_dz2/nonneg/netsim_sim18/add_z_diff_lz0_seed3",
+  "nowu": "experiments/runs/sel_dz2/nowu/netsim_sim18/add_z_signed_diff_lz0_seed3"
+ },
+ "netsim_sim19/add_z_signed_diff_lz0_seed1": {
+  "ref": "experiments/runs/default_wu/netsim_sim19/add_z_signed_diff_lz0_seed1",
+  "nonneg": "experiments/runs/sel_dz2/nonneg/netsim_sim19/add_z_diff_lz0_seed1",
+  "nowu": "experiments/runs/sel_dz2/nowu/netsim_sim19/add_z_signed_diff_lz0_seed1"
+ },
+ "netsim_sim19/add_z_signed_diff_lz0_seed2": {
+  "ref": "experiments/runs/default_wu/netsim_sim19/add_z_signed_diff_lz0_seed2",
+  "nonneg": "experiments/runs/sel_dz2/nonneg/netsim_sim19/add_z_diff_lz0_seed2",
+  "nowu": "experiments/runs/sel_dz2/nowu/netsim_sim19/add_z_signed_diff_lz0_seed2"
+ },
+ "netsim_sim19/add_z_signed_diff_lz0_seed3": {
+  "ref": "experiments/runs/default_wu/netsim_sim19/add_z_signed_diff_lz0_seed3",
+  "nonneg": "experiments/runs/sel_dz2/nonneg/netsim_sim19/add_z_diff_lz0_seed3",
+  "nowu": "experiments/runs/sel_dz2/nowu/netsim_sim19/add_z_signed_diff_lz0_seed3"
+ },
+ "netsim_sim2/add_z_signed_diff_lz0_seed1": {
+  "ref": "experiments/runs/default_wu/netsim_sim2/add_z_signed_diff_lz0_seed1",
+  "nonneg": "experiments/runs/sel_dz2/nonneg/netsim_sim2/add_z_diff_lz0_seed1",
+  "nowu": "experiments/runs/sel_dz2/nowu/netsim_sim2/add_z_signed_diff_lz0_seed1"
+ },
+ "netsim_sim2/add_z_signed_diff_lz0_seed2": {
+  "ref": "experiments/runs/default_wu/netsim_sim2/add_z_signed_diff_lz0_seed2",
+  "nonneg": "experiments/runs/sel_dz2/nonneg/netsim_sim2/add_z_diff_lz0_seed2",
+  "nowu": "experiments/runs/sel_dz2/nowu/netsim_sim2/add_z_signed_diff_lz0_seed2"
+ },
+ "netsim_sim2/add_z_signed_diff_lz0_seed3": {
+  "ref": "experiments/runs/default_wu/netsim_sim2/add_z_signed_diff_lz0_seed3",
+  "nonneg": "experiments/runs/sel_dz2/nonneg/netsim_sim2/add_z_diff_lz0_seed3",
+  "nowu": "experiments/runs/sel_dz2/nowu/netsim_sim2/add_z_signed_diff_lz0_seed3"
+ },
+ "netsim_sim20/add_z_signed_diff_lz0_seed1": {
+  "ref": "experiments/runs/default_wu/netsim_sim20/add_z_signed_diff_lz0_seed1",
+  "nonneg": "experiments/runs/sel_dz2/nonneg/netsim_sim20/add_z_diff_lz0_seed1",
+  "nowu": "experiments/runs/sel_dz2/nowu/netsim_sim20/add_z_signed_diff_lz0_seed1"
+ },
+ "netsim_sim20/add_z_signed_diff_lz0_seed2": {
+  "ref": "experiments/runs/default_wu/netsim_sim20/add_z_signed_diff_lz0_seed2",
+  "nonneg": "experiments/runs/sel_dz2/nonneg/netsim_sim20/add_z_diff_lz0_seed2",
+  "nowu": "experiments/runs/sel_dz2/nowu/netsim_sim20/add_z_signed_diff_lz0_seed2"
+ },
+ "netsim_sim20/add_z_signed_diff_lz0_seed3": {
+  "ref": "experiments/runs/default_wu/netsim_sim20/add_z_signed_diff_lz0_seed3",
+  "nonneg": "experiments/runs/sel_dz2/nonneg/netsim_sim20/add_z_diff_lz0_seed3",
+  "nowu": "experiments/runs/sel_dz2/nowu/netsim_sim20/add_z_signed_diff_lz0_seed3"
+ },
+ "netsim_sim21/add_z_signed_diff_lz0_seed1": {
+  "ref": "experiments/runs/default_wu/netsim_sim21/add_z_signed_diff_lz0_seed1",
+  "nonneg": "experiments/runs/sel_dz2/nonneg/netsim_sim21/add_z_diff_lz0_seed1",
+  "nowu": "experiments/runs/sel_dz2/nowu/netsim_sim21/add_z_signed_diff_lz0_seed1"
+ },
+ "netsim_sim21/add_z_signed_diff_lz0_seed2": {
+  "ref": "experiments/runs/default_wu/netsim_sim21/add_z_signed_diff_lz0_seed2",
+  "nonneg": "experiments/runs/sel_dz2/nonneg/netsim_sim21/add_z_diff_lz0_seed2",
+  "nowu": "experiments/runs/sel_dz2/nowu/netsim_sim21/add_z_signed_diff_lz0_seed2"
+ },
+ "netsim_sim21/add_z_signed_diff_lz0_seed3": {
+  "ref": "experiments/runs/default_wu/netsim_sim21/add_z_signed_diff_lz0_seed3",
+  "nonneg": "experiments/runs/sel_dz2/nonneg/netsim_sim21/add_z_diff_lz0_seed3",
+  "nowu": "experiments/runs/sel_dz2/nowu/netsim_sim21/add_z_signed_diff_lz0_seed3"
+ },
+ "netsim_sim22/add_z_signed_diff_lz0_seed1": {
+  "ref": "experiments/runs/default_wu/netsim_sim22/add_z_signed_diff_lz0_seed1",
+  "nonneg": "experiments/runs/sel_dz2/nonneg/netsim_sim22/add_z_diff_lz0_seed1",
+  "nowu": "experiments/runs/sel_dz2/nowu/netsim_sim22/add_z_signed_diff_lz0_seed1"
+ },
+ "netsim_sim22/add_z_signed_diff_lz0_seed2": {
+  "ref": "experiments/runs/default_wu/netsim_sim22/add_z_signed_diff_lz0_seed2",
+  "nonneg": "experiments/runs/sel_dz2/nonneg/netsim_sim22/add_z_diff_lz0_seed2",
+  "nowu": "experiments/runs/sel_dz2/nowu/netsim_sim22/add_z_signed_diff_lz0_seed2"
+ },
+ "netsim_sim22/add_z_signed_diff_lz0_seed3": {
+  "ref": "experiments/runs/default_wu/netsim_sim22/add_z_signed_diff_lz0_seed3",
+  "nonneg": "experiments/runs/sel_dz2/nonneg/netsim_sim22/add_z_diff_lz0_seed3",
+  "nowu": "experiments/runs/sel_dz2/nowu/netsim_sim22/add_z_signed_diff_lz0_seed3"
+ },
+ "netsim_sim23/add_z_signed_diff_lz0_seed1": {
+  "ref": "experiments/runs/default_wu/netsim_sim23/add_z_signed_diff_lz0_seed1",
+  "nonneg": "experiments/runs/sel_dz2/nonneg/netsim_sim23/add_z_diff_lz0_seed1",
+  "nowu": "experiments/runs/sel_dz2/nowu/netsim_sim23/add_z_signed_diff_lz0_seed1"
+ },
+ "netsim_sim23/add_z_signed_diff_lz0_seed2": {
+  "ref": "experiments/runs/default_wu/netsim_sim23/add_z_signed_diff_lz0_seed2",
+  "nonneg": "experiments/runs/sel_dz2/nonneg/netsim_sim23/add_z_diff_lz0_seed2",
+  "nowu": "experiments/runs/sel_dz2/nowu/netsim_sim23/add_z_signed_diff_lz0_seed2"
+ },
+ "netsim_sim23/add_z_signed_diff_lz0_seed3": {
+  "ref": "experiments/runs/default_wu/netsim_sim23/add_z_signed_diff_lz0_seed3",
+  "nonneg": "experiments/runs/sel_dz2/nonneg/netsim_sim23/add_z_diff_lz0_seed3",
+  "nowu": "experiments/runs/sel_dz2/nowu/netsim_sim23/add_z_signed_diff_lz0_seed3"
+ },
+ "netsim_sim24/add_z_signed_diff_lz0_seed1": {
+  "ref": "experiments/runs/default_wu/netsim_sim24/add_z_signed_diff_lz0_seed1",
+  "nonneg": "experiments/runs/sel_dz2/nonneg/netsim_sim24/add_z_diff_lz0_seed1",
+  "nowu": "experiments/runs/sel_dz2/nowu/netsim_sim24/add_z_signed_diff_lz0_seed1"
+ },
+ "netsim_sim24/add_z_signed_diff_lz0_seed2": {
+  "ref": "experiments/runs/default_wu/netsim_sim24/add_z_signed_diff_lz0_seed2",
+  "nonneg": "experiments/runs/sel_dz2/nonneg/netsim_sim24/add_z_diff_lz0_seed2",
+  "nowu": "experiments/runs/sel_dz2/nowu/netsim_sim24/add_z_signed_diff_lz0_seed2"
+ },
+ "netsim_sim24/add_z_signed_diff_lz0_seed3": {
+  "ref": "experiments/runs/default_wu/netsim_sim24/add_z_signed_diff_lz0_seed3",
+  "nonneg": "experiments/runs/sel_dz2/nonneg/netsim_sim24/add_z_diff_lz0_seed3",
+  "nowu": "experiments/runs/sel_dz2/nowu/netsim_sim24/add_z_signed_diff_lz0_seed3"
+ },
+ "netsim_sim25/add_z_signed_diff_lz0_seed1": {
+  "ref": "experiments/runs/default_wu/netsim_sim25/add_z_signed_diff_lz0_seed1",
+  "nonneg": "experiments/runs/sel_dz2/nonneg/netsim_sim25/add_z_diff_lz0_seed1",
+  "nowu": "experiments/runs/sel_dz2/nowu/netsim_sim25/add_z_signed_diff_lz0_seed1"
+ },
+ "netsim_sim25/add_z_signed_diff_lz0_seed2": {
+  "ref": "experiments/runs/default_wu/netsim_sim25/add_z_signed_diff_lz0_seed2",
+  "nonneg": "experiments/runs/sel_dz2/nonneg/netsim_sim25/add_z_diff_lz0_seed2",
+  "nowu": "experiments/runs/sel_dz2/nowu/netsim_sim25/add_z_signed_diff_lz0_seed2"
+ },
+ "netsim_sim25/add_z_signed_diff_lz0_seed3": {
+  "ref": "experiments/runs/default_wu/netsim_sim25/add_z_signed_diff_lz0_seed3",
+  "nonneg": "experiments/runs/sel_dz2/nonneg/netsim_sim25/add_z_diff_lz0_seed3",
+  "nowu": "experiments/runs/sel_dz2/nowu/netsim_sim25/add_z_signed_diff_lz0_seed3"
+ },
+ "netsim_sim26/add_z_signed_diff_lz0_seed1": {
+  "ref": "experiments/runs/default_wu/netsim_sim26/add_z_signed_diff_lz0_seed1",
+  "nonneg": "experiments/runs/sel_dz2/nonneg/netsim_sim26/add_z_diff_lz0_seed1",
+  "nowu": "experiments/runs/sel_dz2/nowu/netsim_sim26/add_z_signed_diff_lz0_seed1"
+ },
+ "netsim_sim26/add_z_signed_diff_lz0_seed2": {
+  "ref": "experiments/runs/default_wu/netsim_sim26/add_z_signed_diff_lz0_seed2",
+  "nonneg": "experiments/runs/sel_dz2/nonneg/netsim_sim26/add_z_diff_lz0_seed2",
+  "nowu": "experiments/runs/sel_dz2/nowu/netsim_sim26/add_z_signed_diff_lz0_seed2"
+ },
+ "netsim_sim26/add_z_signed_diff_lz0_seed3": {
+  "ref": "experiments/runs/default_wu/netsim_sim26/add_z_signed_diff_lz0_seed3",
+  "nonneg": "experiments/runs/sel_dz2/nonneg/netsim_sim26/add_z_diff_lz0_seed3",
+  "nowu": "experiments/runs/sel_dz2/nowu/netsim_sim26/add_z_signed_diff_lz0_seed3"
+ },
+ "netsim_sim27/add_z_signed_diff_lz0_seed1": {
+  "ref": "experiments/runs/default_wu/netsim_sim27/add_z_signed_diff_lz0_seed1",
+  "nonneg": "experiments/runs/sel_dz2/nonneg/netsim_sim27/add_z_diff_lz0_seed1",
+  "nowu": "experiments/runs/sel_dz2/nowu/netsim_sim27/add_z_signed_diff_lz0_seed1"
+ },
+ "netsim_sim27/add_z_signed_diff_lz0_seed2": {
+  "ref": "experiments/runs/default_wu/netsim_sim27/add_z_signed_diff_lz0_seed2",
+  "nonneg": "experiments/runs/sel_dz2/nonneg/netsim_sim27/add_z_diff_lz0_seed2",
+  "nowu": "experiments/runs/sel_dz2/nowu/netsim_sim27/add_z_signed_diff_lz0_seed2"
+ },
+ "netsim_sim27/add_z_signed_diff_lz0_seed3": {
+  "ref": "experiments/runs/default_wu/netsim_sim27/add_z_signed_diff_lz0_seed3",
+  "nonneg": "experiments/runs/sel_dz2/nonneg/netsim_sim27/add_z_diff_lz0_seed3",
+  "nowu": "experiments/runs/sel_dz2/nowu/netsim_sim27/add_z_signed_diff_lz0_seed3"
+ },
+ "netsim_sim28/add_z_signed_diff_lz0_seed1": {
+  "ref": "experiments/runs/default_wu/netsim_sim28/add_z_signed_diff_lz0_seed1",
+  "nonneg": "experiments/runs/sel_dz2/nonneg/netsim_sim28/add_z_diff_lz0_seed1",
+  "nowu": "experiments/runs/sel_dz2/nowu/netsim_sim28/add_z_signed_diff_lz0_seed1"
+ },
+ "netsim_sim28/add_z_signed_diff_lz0_seed2": {
+  "ref": "experiments/runs/default_wu/netsim_sim28/add_z_signed_diff_lz0_seed2",
+  "nonneg": "experiments/runs/sel_dz2/nonneg/netsim_sim28/add_z_diff_lz0_seed2",
+  "nowu": "experiments/runs/sel_dz2/nowu/netsim_sim28/add_z_signed_diff_lz0_seed2"
+ },
+ "netsim_sim28/add_z_signed_diff_lz0_seed3": {
+  "ref": "experiments/runs/default_wu/netsim_sim28/add_z_signed_diff_lz0_seed3",
+  "nonneg": "experiments/runs/sel_dz2/nonneg/netsim_sim28/add_z_diff_lz0_seed3",
+  "nowu": "experiments/runs/sel_dz2/nowu/netsim_sim28/add_z_signed_diff_lz0_seed3"
+ },
+ "netsim_sim3/add_z_signed_diff_lz0_seed1": {
+  "ref": "experiments/runs/default_wu/netsim_sim3/add_z_signed_diff_lz0_seed1",
+  "nonneg": "experiments/runs/sel_dz2/nonneg/netsim_sim3/add_z_diff_lz0_seed1",
+  "nowu": "experiments/runs/sel_dz2/nowu/netsim_sim3/add_z_signed_diff_lz0_seed1"
+ },
+ "netsim_sim3/add_z_signed_diff_lz0_seed2": {
+  "ref": "experiments/runs/default_wu/netsim_sim3/add_z_signed_diff_lz0_seed2",
+  "nonneg": "experiments/runs/sel_dz2/nonneg/netsim_sim3/add_z_diff_lz0_seed2",
+  "nowu": "experiments/runs/sel_dz2/nowu/netsim_sim3/add_z_signed_diff_lz0_seed2"
+ },
+ "netsim_sim3/add_z_signed_diff_lz0_seed3": {
+  "ref": "experiments/runs/default_wu/netsim_sim3/add_z_signed_diff_lz0_seed3",
+  "nonneg": "experiments/runs/sel_dz2/nonneg/netsim_sim3/add_z_diff_lz0_seed3",
+  "nowu": "experiments/runs/sel_dz2/nowu/netsim_sim3/add_z_signed_diff_lz0_seed3"
+ },
+ "netsim_sim4/add_z_signed_diff_lz0_seed1": {
+  "ref": "experiments/runs/default_wu/netsim_sim4/add_z_signed_diff_lz0_seed1",
+  "nonneg": "experiments/runs/sel_dz2/nonneg/netsim_sim4/add_z_diff_lz0_seed1",
+  "nowu": "experiments/runs/sel_dz2/nowu/netsim_sim4/add_z_signed_diff_lz0_seed1"
+ },
+ "netsim_sim4/add_z_signed_diff_lz0_seed2": {
+  "ref": "experiments/runs/default_wu/netsim_sim4/add_z_signed_diff_lz0_seed2",
+  "nonneg": "experiments/runs/sel_dz2/nonneg/netsim_sim4/add_z_diff_lz0_seed2",
+  "nowu": "experiments/runs/sel_dz2/nowu/netsim_sim4/add_z_signed_diff_lz0_seed2"
+ },
+ "netsim_sim4/add_z_signed_diff_lz0_seed3": {
+  "ref": "experiments/runs/default_wu/netsim_sim4/add_z_signed_diff_lz0_seed3",
+  "nonneg": "experiments/runs/sel_dz2/nonneg/netsim_sim4/add_z_diff_lz0_seed3",
+  "nowu": "experiments/runs/sel_dz2/nowu/netsim_sim4/add_z_signed_diff_lz0_seed3"
+ },
+ "netsim_sim5/add_z_signed_diff_lz0_seed1": {
+  "ref": "experiments/runs/default_wu/netsim_sim5/add_z_signed_diff_lz0_seed1",
+  "nonneg": "experiments/runs/sel_dz2/nonneg/netsim_sim5/add_z_diff_lz0_seed1",
+  "nowu": "experiments/runs/sel_dz2/nowu/netsim_sim5/add_z_signed_diff_lz0_seed1"
+ },
+ "netsim_sim5/add_z_signed_diff_lz0_seed2": {
+  "ref": "experiments/runs/default_wu/netsim_sim5/add_z_signed_diff_lz0_seed2",
+  "nonneg": "experiments/runs/sel_dz2/nonneg/netsim_sim5/add_z_diff_lz0_seed2",
+  "nowu": "experiments/runs/sel_dz2/nowu/netsim_sim5/add_z_signed_diff_lz0_seed2"
+ },
+ "netsim_sim5/add_z_signed_diff_lz0_seed3": {
+  "ref": "experiments/runs/default_wu/netsim_sim5/add_z_signed_diff_lz0_seed3",
+  "nonneg": "experiments/runs/sel_dz2/nonneg/netsim_sim5/add_z_diff_lz0_seed3",
+  "nowu": "experiments/runs/sel_dz2/nowu/netsim_sim5/add_z_signed_diff_lz0_seed3"
+ },
+ "netsim_sim6/add_z_signed_diff_lz0_seed1": {
+  "ref": "experiments/runs/default_wu/netsim_sim6/add_z_signed_diff_lz0_seed1",
+  "nonneg": "experiments/runs/sel_dz2/nonneg/netsim_sim6/add_z_diff_lz0_seed1",
+  "nowu": "experiments/runs/sel_dz2/nowu/netsim_sim6/add_z_signed_diff_lz0_seed1"
+ },
+ "netsim_sim6/add_z_signed_diff_lz0_seed2": {
+  "ref": "experiments/runs/default_wu/netsim_sim6/add_z_signed_diff_lz0_seed2",
+  "nonneg": "experiments/runs/sel_dz2/nonneg/netsim_sim6/add_z_diff_lz0_seed2",
+  "nowu": "experiments/runs/sel_dz2/nowu/netsim_sim6/add_z_signed_diff_lz0_seed2"
+ },
+ "netsim_sim6/add_z_signed_diff_lz0_seed3": {
+  "ref": "experiments/runs/default_wu/netsim_sim6/add_z_signed_diff_lz0_seed3",
+  "nonneg": "experiments/runs/sel_dz2/nonneg/netsim_sim6/add_z_diff_lz0_seed3",
+  "nowu": "experiments/runs/sel_dz2/nowu/netsim_sim6/add_z_signed_diff_lz0_seed3"
+ },
+ "netsim_sim7/add_z_signed_diff_lz0_seed1": {
+  "ref": "experiments/runs/default_wu/netsim_sim7/add_z_signed_diff_lz0_seed1",
+  "nonneg": "experiments/runs/sel_dz2/nonneg/netsim_sim7/add_z_diff_lz0_seed1",
+  "nowu": "experiments/runs/sel_dz2/nowu/netsim_sim7/add_z_signed_diff_lz0_seed1"
+ },
+ "netsim_sim7/add_z_signed_diff_lz0_seed2": {
+  "ref": "experiments/runs/default_wu/netsim_sim7/add_z_signed_diff_lz0_seed2",
+  "nonneg": "experiments/runs/sel_dz2/nonneg/netsim_sim7/add_z_diff_lz0_seed2",
+  "nowu": "experiments/runs/sel_dz2/nowu/netsim_sim7/add_z_signed_diff_lz0_seed2"
+ },
+ "netsim_sim7/add_z_signed_diff_lz0_seed3": {
+  "ref": "experiments/runs/default_wu/netsim_sim7/add_z_signed_diff_lz0_seed3",
+  "nonneg": "experiments/runs/sel_dz2/nonneg/netsim_sim7/add_z_diff_lz0_seed3",
+  "nowu": "experiments/runs/sel_dz2/nowu/netsim_sim7/add_z_signed_diff_lz0_seed3"
+ },
+ "netsim_sim8/add_z_signed_diff_lz0_seed1": {
+  "ref": "experiments/runs/default_wu/netsim_sim8/add_z_signed_diff_lz0_seed1",
+  "nonneg": "experiments/runs/sel_dz2/nonneg/netsim_sim8/add_z_diff_lz0_seed1",
+  "nowu": "experiments/runs/sel_dz2/nowu/netsim_sim8/add_z_signed_diff_lz0_seed1"
+ },
+ "netsim_sim8/add_z_signed_diff_lz0_seed2": {
+  "ref": "experiments/runs/default_wu/netsim_sim8/add_z_signed_diff_lz0_seed2",
+  "nonneg": "experiments/runs/sel_dz2/nonneg/netsim_sim8/add_z_diff_lz0_seed2",
+  "nowu": "experiments/runs/sel_dz2/nowu/netsim_sim8/add_z_signed_diff_lz0_seed2"
+ },
+ "netsim_sim8/add_z_signed_diff_lz0_seed3": {
+  "ref": "experiments/runs/default_wu/netsim_sim8/add_z_signed_diff_lz0_seed3",
+  "nonneg": "experiments/runs/sel_dz2/nonneg/netsim_sim8/add_z_diff_lz0_seed3",
+  "nowu": "experiments/runs/sel_dz2/nowu/netsim_sim8/add_z_signed_diff_lz0_seed3"
+ },
+ "netsim_sim9/add_z_signed_diff_lz0_seed1": {
+  "ref": "experiments/runs/default_wu/netsim_sim9/add_z_signed_diff_lz0_seed1",
+  "nonneg": "experiments/runs/sel_dz2/nonneg/netsim_sim9/add_z_diff_lz0_seed1",
+  "nowu": "experiments/runs/sel_dz2/nowu/netsim_sim9/add_z_signed_diff_lz0_seed1"
+ },
+ "netsim_sim9/add_z_signed_diff_lz0_seed2": {
+  "ref": "experiments/runs/default_wu/netsim_sim9/add_z_signed_diff_lz0_seed2",
+  "nonneg": "experiments/runs/sel_dz2/nonneg/netsim_sim9/add_z_diff_lz0_seed2",
+  "nowu": "experiments/runs/sel_dz2/nowu/netsim_sim9/add_z_signed_diff_lz0_seed2"
+ },
+ "netsim_sim9/add_z_signed_diff_lz0_seed3": {
+  "ref": "experiments/runs/default_wu/netsim_sim9/add_z_signed_diff_lz0_seed3",
+  "nonneg": "experiments/runs/sel_dz2/nonneg/netsim_sim9/add_z_diff_lz0_seed3",
+  "nowu": "experiments/runs/sel_dz2/nowu/netsim_sim9/add_z_signed_diff_lz0_seed3"
+ }
+}

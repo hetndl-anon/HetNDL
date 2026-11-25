@@ -1,0 +1,25 @@
+# environment for experiments/launch/allier_run.py and allier_control.py (Python 3.10 or later)
+torch>=2.5
+torchvision
+torch_geometric==2.7.0
+numpy<2.3
+scipy
+pandas
+matplotlib
+seaborn
+scikit-image
+scikit-learn
+umap-learn
+networkx
+prettytable
+pyyaml
+tqdm
+imageio
+tifffile
+pydantic
+xarray
+torchdiffeq
+joblib
+commentjson
+tensorstore
+napari
